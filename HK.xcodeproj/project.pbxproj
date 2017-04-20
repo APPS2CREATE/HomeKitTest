@@ -89,6 +89,7 @@
 				6DDD7A971EA61DF8001602BC /* LaunchScreen.storyboard */,
 			);
 			name = UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		6D2F21311EA76313009F0DDC /* Components */ = {
@@ -97,6 +98,7 @@
 				6D2F212E1EA75424009F0DDC /* StandardButton.swift */,
 			);
 			name = Components;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		6D2F21321EA7631F009F0DDC /* Modules */ = {
@@ -105,36 +107,39 @@
 				6D2F21331EA76334009F0DDC /* Main */,
 			);
 			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		6D2F21331EA76334009F0DDC /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				6DDD7A901EA61DF8001602BC /* ViewController.swift */,
 				6DDD7A921EA61DF8001602BC /* Main.storyboard */,
+				6DDD7A901EA61DF8001602BC /* ViewController.swift */,
 				6DCA2A161EA639C3007137DD /* ViewModel.swift */,
 			);
 			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		6DCA2A181EA740F5007137DD /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				6DDD7A8E1EA61DF8001602BC /* AppDelegate.swift */,
 				6DDD7ABC1EA61DFE001602BC /* HK.entitlements */,
 				6DDD7A9A1EA61DF8001602BC /* Info.plist */,
-				6DDD7A8E1EA61DF8001602BC /* AppDelegate.swift */,
 			);
 			name = "Supporting files";
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 		6DDD7A821EA61DF8001602BC = {
 			isa = PBXGroup;
 			children = (
+				6DDD7ABD1EA61DFE001602BC /* Frameworks */,
 				6DDD7A8D1EA61DF8001602BC /* HK */,
 				6DDD7AA21EA61DF8001602BC /* HKTests */,
 				6DDD7AAD1EA61DF8001602BC /* HKUITests */,
 				6DDD7A8C1EA61DF8001602BC /* Products */,
-				6DDD7ABD1EA61DFE001602BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,8 +158,8 @@
 			children = (
 				6D2F21311EA76313009F0DDC /* Components */,
 				6D2F21321EA7631F009F0DDC /* Modules */,
-				6D2F21301EA76303009F0DDC /* UI */,
 				6DCA2A181EA740F5007137DD /* Supporting files */,
+				6D2F21301EA76303009F0DDC /* UI */,
 			);
 			path = HK;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				6DDD7A931EA61DF8001602BC /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6DDD7A971EA61DF8001602BC /* LaunchScreen.storyboard */ = {
@@ -380,6 +386,7 @@
 				6DDD7A981EA61DF8001602BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -487,7 +494,7 @@
 				CODE_SIGN_ENTITLEMENTS = HK/HK.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y698KDFKVQ;
-				INFOPLIST_FILE = HK/Info.plist;
+				INFOPLIST_FILE = "HK/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASDevs.HK;
@@ -505,7 +512,7 @@
 				CODE_SIGN_ENTITLEMENTS = HK/HK.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = Y698KDFKVQ;
-				INFOPLIST_FILE = HK/Info.plist;
+				INFOPLIST_FILE = "HK/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASDevs.HK;
