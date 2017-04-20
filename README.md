@@ -16,7 +16,9 @@ Setup the tools
 
 Setup all the tools needed in order to work on this project.
 
-- Be sure you have downloaded [HomeKit Accessory Simulator](https://developer.apple.com/download/more/). Download the Additional Tools for Xcode 8.2 or later.
+- Be sure you have downloaded [HomeKit Accessory Simulator](https://developer.apple.com/download/more/).  
+  - Download the Additional Tools for Xcode 8.2 or later.
+
 
 - Apple's MFi program has some other helpful tools but they aren't necessary for this test project.
 
